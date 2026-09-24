@@ -1,0 +1,1 @@
+const btn=document.querySelector('.hamburger');const bar=document.querySelector('.topbar');btn.addEventListener('click',()=>bar.classList.toggle('open'));document.querySelectorAll('nav a').forEach(a=>a.addEventListener('click',()=>bar.classList.remove('open')));
